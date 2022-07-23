@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color: #fff; }
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto; }
+
+.bgTop {
+  margin-bottom: 20px; }
+  .bgTop img {
+    width: 100%; }
+
+.bgBottom {
+  margin-top: -4%; }
+  .bgBottom img {
+    width: 100%; }
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    .principal {
+      flex-wrap: wrap-reverse;
+      justify-content: initial; } }
+
+.conteudo {
+  width: 50%;
+  max-width: 500px;
+  margin-left: 3%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media (max-width: 767px) {
+    .conteudo {
+      width: 100%;
+      margin: auto; } }
+  @media (max-width: 410px) {
+    .conteudo {
+      padding: 0; } }
+  .conteudo .title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #6C63FF;
+    margin-bottom: 20px; }
+    @media (max-width: 985px) {
+      .conteudo .title {
+        font-size: 30px; } }
+    @media (max-width: 410px) {
+      .conteudo .title {
+        font-size: 22px; } }
+  .conteudo .description {
+    font-weight: 400;
+    color: #9C9AB6;
+    margin-bottom: 30px; }
+    @media (max-width: 410px) {
+      .conteudo .description {
+        font-size: 12px;
+        text-align: center; } }
+  .conteudo .btn {
+    border: solid 1px #6C63FF;
+    background-color: #6C63FF;
+    padding: 15px 32px;
+    border-radius: 10px; }
+    .conteudo .btn a {
+      color: #FFFFFF; }
+      @media (max-width: 410px) {
+        .conteudo .btn a {
+          font-size: 12px; } }
+
+.timer {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  color: #4D4C59;
+  font-weight: 400;
+  font-size: 72px; }
+  @media (max-width: 1089px) {
+    .timer {
+      font-size: 55px;
+      gap: 40px; } }
+  @media (max-width: 985px) {
+    .timer {
+      font-size: 30px;
+      gap: 30px; } }
+  @media (max-width: 410px) {
+    .timer {
+      font-size: 22px; } }
+  .timer p {
+    color: #C8C8C8;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center; }
+    @media (max-width: 410px) {
+      .timer p {
+        font-size: 12px; } }
+  .timer .separar::after {
+    position: absolute;
+    content: ":";
+    margin-left: 20px; }
+
+.image {
+  width: 50%;
+  margin-right: 10px; }
+  @media (max-width: 767px) {
+    .image {
+      width: 70%;
+      margin: auto; } }
+  .image img {
+    width: 100%;
+    max-width: 600px; }
+
+/*# sourceMappingURL=style.css.map */
